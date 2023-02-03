@@ -1,0 +1,1934 @@
+.head-support {
+  font-size: 18px !important;
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
+:root {
+  --primary: #58d498;
+  --siteblue: #10098ffa;
+  --siteyellow: #ffdc60;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--siteyellow);
+}
+input:focus-visible {
+  outline: none !important;
+}
+p {
+  color: #333333;
+}
+.text-yellow {
+  color: #ffdc60;
+}
+.text-para {
+  color: #333333 !important;
+}
+a:hover {
+  color: #10098f !important;
+}
+.text-blue {
+  color: #10098f;
+}
+.text-green {
+  color: #58d498 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  line-height: 160% !important;
+}
+
+img {
+  width: 100%;
+}
+
+p.head-support {
+  font-size: 16px;
+  line-height: 180%;
+}
+/* .................Buttons............ */
+.emeet_btn {
+  padding: 20px 36px;
+  background: var(--siteyellow);
+  color: var(--siteblue);
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.main-btn {
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: #fff !important;
+  padding: 17px 25px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+}
+.hero-btn {
+  padding: 20px 36px;
+  border-radius: 10px;
+  color: #fff !important;
+  background-color: var(--primary);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+.getStarted_btn {
+  color: var(--primary);
+  padding: 20px 36px;
+  background: #ffffff;
+  box-shadow: 20px 30px 90px rgba(88, 212, 152, 0.2);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+.rqstDemo_btn {
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: #fff !important;
+  padding: 17px 25px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+}
+
+.main-btn:hover,
+.hero-btn:hover {
+  background-color: #4ab280;
+  color: white !important;
+}
+.explore_courses_btn:hover,
+.emeet_btn:hover {
+  background-color: #fed24c;
+  color: white !important;
+}
+.getStarted_btn:hover {
+  background-color: #ffdc60;
+  color: white !important;
+}
+#becomeInstructor:hover {
+  transform: scale(1.1);
+}
+#footer .main_footer_content p {
+  margin-bottom: 10px !important;
+}
+/* .submit_email:hover {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+} */
+.social_icon img {
+  width: 86%;
+}
+.social_icon {
+  margin-left: 21px;
+}
+@media screen and (max-width: 480px) {
+  .score_card_mb {
+    background-color: var(--siteyellow);
+    z-index: 99;
+    border-radius: 15px;
+    padding: 14px;
+    top: 210px !important;
+  }
+  .score_card_mb h3,
+  .score_card_mb h4 {
+    margin-bottom: 0rem !important;
+  }
+  .testimo_playbtn_mb {
+    right: 24% !important;
+    bottom: 14px !important;
+    z-index: 5;
+  }
+  .splide__pagination--ttb {
+    margin-top: 50% !important;
+  }
+  .score_card_mb h3 {
+    line-height: 23px !important;
+  }
+  .customer_details img {
+    margin-top: 30px !important;
+  }
+
+  .testimo_card_xs {
+    background: #ffffff !important;
+    box-shadow: 20px 20px 24px rgb(0 0 0 / 4%);
+    border-radius: 40px !important;
+    border: none !important;
+    /* font-size: 14px !important; */
+  }
+  p {
+    font-size: 14px !important;
+  }
+  h1 {
+    font-size: 36px !important;
+  }
+  #headerHero h1 {
+    font-size: 24px !important;
+    margin-top: 36px !important;
+  }
+  .hero_heading_text p {
+    font-size: 16px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 26px !important;
+  }
+  .hero_heading_text {
+    padding-top: 0px !important;
+    text-align: center;
+  }
+  #whysagedean .container .row {
+    text-align: center;
+  }
+
+  .btn-mob-group {
+    display: flex;
+    justify-content: center;
+  }
+  .university_logo img {
+    width: 100px !important;
+    height: 110px;
+  }
+  .girl_img {
+    width: 55%;
+    position: absolute;
+    top: 106px;
+    left: 205px;
+  }
+  .playPause {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 219px;
+    right: 15px;
+  }
+  #courses .leaf_div {
+    display: none;
+  }
+  .girl_img {
+    position: absolute;
+    top: 52px !important;
+    left: 122px !important;
+  }
+  #heroBoy {
+    position: absolute;
+    left: 65px;
+    width: 70%;
+    top: 25px;
+  }
+  .counter_card1 {
+    width: 46% !important;
+    top: 19px;
+    right: 0 !important;
+  }
+  .counter_card2 {
+    width: 52% !important;
+    bottom: 88px !important;
+    left: 0 !important;
+  }
+  .counter_card_content {
+    bottom: 2px !important;
+    right: 34px !important;
+  }
+  .counter_card_content p,
+  .counter_card_content h3 {
+    margin-bottom: 0rem !important;
+  }
+  .counter_card_content p.fs-4 {
+    font-size: 14px !important;
+  }
+  .counter_card_content2 {
+    top: 0px !important;
+    right: 12px !important;
+  }
+  .counter_card_content2 p.mt-4 {
+    margin-top: 0.7rem !important;
+  }
+  /* .last_footer_logo {
+        --bs-gutter-x: 0rem !important;
+    } */
+  .playPause {
+    width: 65px !important;
+    height: 65px !important;
+    top: 252px !important;
+    right: 15px;
+  }
+  .accordion-button {
+    font-size: 14px !important;
+  }
+  .accordion .mob-play-accordion {
+    padding-left: calc(var(--bs-gutter-x) * 0);
+    /* margin-top: 20px; */
+  }
+  #becomeInstructor {
+    font-size: 18px !important;
+    bottom: -23px !important;
+  }
+
+  .form_div {
+    width: 100% !important;
+  }
+  .submit_email {
+    padding: 15px !important;
+  }
+  #mailForm {
+    padding: 5px !important;
+  }
+  #footer .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 0rem !important;
+  }
+  #headerHero {
+    padding-top: 25px !important;
+  }
+  .hat_div {
+    justify-content: center;
+    padding: 20px 0px;
+  }
+  #hat {
+    width: 50% !important;
+  }
+  .call_to_action .col-lg-5 {
+    text-align: center;
+  }
+  .hero-bg.py-5 {
+    padding-bottom: 0rem !important ;
+  }
+  .text_upgrade_skills {
+    text-align: center;
+  }
+  .text_upgrade_skills h2 {
+    margin-top: 3rem;
+  }
+  .getStarted_btn,
+  .rqstDemo_btn,
+  .explore_courses_btn,
+  .hero-btn,
+  .emeet_btn,
+  .main-btn {
+    padding: 16px 22px !important;
+    font-size: 16px !important;
+  }
+  .upgrade_skills_btndiv {
+    justify-content: space-between;
+    gap: 0 !important;
+  }
+  .university_logo img {
+    height: 55px !important;
+  }
+  .form_div {
+    width: 100%;
+  }
+  #becomeInstructor {
+    padding: 19px 40px !important;
+  }
+  .call_to_action {
+    margin-top: 3rem !important;
+  }
+  .mt-mb-3rem {
+    margin-top: 3rem !important;
+  }
+  .accordion-button::after {
+    background-size: 14px !important;
+    height: 14px !important;
+    width: 14px !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-size: 12px !important;
+    height: 12px !important;
+    width: 12px !important;
+  }
+  #scrollToTop_btn {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  /* .nav-item a{
+        text-align: center;
+    } */
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  /* h3 {
+        font-size: 20px !important;
+    }
+    h1 {
+        font-size: 34px !important;
+    } */
+  .university_logo img {
+    width: 100px !important;
+    height: 110px;
+  }
+  .girl_img {
+    width: 55%;
+    position: absolute;
+    top: 106px;
+    left: 205px;
+  }
+  .playPause {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 219px;
+    right: 15px;
+  }
+  .send_mail_container {
+    width: 45% !important;
+  }
+  .accordion .col-1 img {
+    width: 150%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #heroBoy {
+    position: absolute;
+    left: 75px;
+    width: 75%;
+    bottom: 60px;
+  }
+  .herodiv {
+    width: 90%;
+    margin-top: 80px;
+    float: right;
+  }
+  .nav-item {
+    margin: 0px 10px !important;
+  }
+  .main-btn {
+    padding: 12px 20px !important;
+  }
+  .emeet_btn,
+  .getStarted_btn {
+    padding: 17px 25px !important;
+  }
+  .counter_card1 {
+    top: 131px;
+    right: -20px;
+    width: 36% !important;
+  }
+
+  .counter_card2 {
+    top: 420px;
+    width: 42% !important;
+  }
+  .counter_card_content h3 {
+    margin-bottom: 0rem;
+    font-size: 28px !important;
+  }
+  .counter_card_content p {
+    font-size: 18px !important;
+    line-height: 100% !important;
+  }
+  .counter_card_content {
+    bottom: -12px !important;
+    right: 35px !important;
+  }
+  .counter_card_content2 {
+    top: -2px;
+    right: 13px;
+  }
+  #headerHero {
+    padding-top: 0px !important;
+  }
+
+  .girl_img {
+    width: 55%;
+    position: absolute;
+    top: 71px !important;
+    left: 146px !important;
+  }
+  .playPause {
+    width: 75px !important;
+    position: absolute;
+    top: 154px !important;
+    right: 15px !important;
+  }
+
+  #weWillHelpYou .yellow_dots {
+    width: 8% !important;
+    /* position: absolute;
+        right: -20px;
+        top: -18px;
+        z-index: 0; */
+  }
+  /* #footer .container {
+        margin-top: 92px;
+    } */
+  .call_to_action h2 {
+    font-size: 36px !important;
+  }
+  .call_to_action .col-lg-5 {
+    width: 31.66%;
+  }
+  .call_to_action .col-lg-7 {
+    width: 68.33%;
+  }
+  .call_to_action .col-lg-7 p {
+    font-size: 14px !important;
+  }
+  .call_to_action button {
+    padding: 8px;
+    width: 67%;
+    margin-top: 10px !important;
+  }
+  .send_mail_container {
+    width: 45% !important;
+  }
+  .university_logo img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .call_to_action .emeet_btn {
+    width: 240px !important;
+    /* padding: 20px 36px !important; */
+  }
+  #courses .leaf_div .leaf {
+    top: 156px;
+  }
+  .green_dots {
+    right: 0;
+    position: absolute;
+    top: -72px;
+  }
+  .form_div {
+    width: 45%;
+  }
+  #mailForm {
+    padding: 8px;
+    margin-bottom: 2rem !important;
+  }
+  .type_email {
+    padding: 20px;
+  }
+  .submit_email {
+    width: 127px;
+  }
+  #becomeInstructor {
+    font-size: 20px !important;
+    padding: 20px 38px;
+    bottom: -34px !important;
+  }
+  .main_footer_content.py-5 {
+    padding-bottom: 0rem !important;
+  }
+}
+@media screen and (min-width: 1367px) {
+  h1 {
+    font-size: 54px !important;
+  }
+  h3 {
+    font-size: 36px !important;
+  }
+  h2 {
+    font-size: 48px !important;
+  }
+  .hero_heading_text p {
+    font-size: 24px;
+  }
+  .mt-4rem {
+    margin-top: 4rem;
+  }
+  .fs-35px {
+    font-size: 35px !important;
+  }
+  .mt-10 {
+    margin-top: 6rem !important;
+  }
+  .hero1 img {
+    width: 80%;
+    margin-left: 65px;
+  }
+  #heroBoy {
+    position: absolute;
+    left: 110px;
+    width: 75%;
+    bottom: 83px;
+  }
+  .herodiv {
+    width: 90%;
+    margin-top: 8px;
+    float: right;
+  }
+  .nav-item {
+    padding: 0px 6px !important;
+  }
+  .counter_card1 {
+    top: 75px;
+    right: -40px;
+  }
+  .counter_card1 p {
+    line-height: 8px;
+  }
+
+  .counter_card2 {
+    position: absolute;
+    top: 480px;
+  }
+
+  .fs-18px {
+    font-size: 18px !important;
+  }
+  .fs-48px {
+    font-size: 18px;
+  }
+  .call_to_action .py-5 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+  #weWillHelpYou .yellow_dots {
+    width: 5% !important;
+    position: absolute;
+    right: -20px;
+    top: -18px;
+    z-index: 0;
+  }
+
+  .weWill_cards .card {
+    width: 95%;
+  }
+  .girl_img {
+    width: 55%;
+    position: absolute;
+    top: 106px;
+    left: 205px;
+  }
+  .playPause {
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute !important;
+    top: 219px !important;
+    right: 15px !important;
+  }
+
+  .footer_logo {
+    width: 90%;
+  }
+  .logo_para {
+    width: 90%;
+  }
+
+  #becomeInstructor {
+    position: absolute;
+    bottom: -105px;
+  }
+  .send_mail_container {
+    width: 45% !important;
+  }
+  .lastcta {
+    width: 80%;
+    margin-top: -333px;
+  }
+  .testimo_card {
+    width: 85%;
+  }
+  .testimo_leaf_div {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+  }
+  .testimo_playbtn {
+    position: absolute;
+    z-index: 11;
+    bottom: 35px;
+    right: 486px;
+  }
+  .testimo_playbtn input {
+    width: 73% !important;
+  }
+  #courses .leaf_div .leaf {
+    top: 167px;
+  }
+  #courses .leaf_div {
+    max-width: 1540px;
+  }
+  .accordion-button {
+    font-size: 18px !important;
+  }
+
+  .type_email {
+    flex-grow: 3;
+    border: none;
+    font-size: 24px;
+    padding: 15px !important;
+    border-radius: 50px;
+  }
+  .form_div {
+    width: 45%;
+  }
+  .accordion-section.pb-5 {
+    padding-bottom: 24rem !important;
+  }
+  #footer .py-5 {
+    padding: 6rem 0rem 0rem 0rem !important;
+  }
+
+  .main-btn {
+    background-color: var(--primary);
+    border-radius: 10px;
+    color: #fff !important;
+    padding: 17px 22px !important;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+  }
+  .explore_courses_btn,
+  .rqstDemo_btn {
+    padding: 20px 36px !important;
+  }
+  .submit_email {
+    padding: 20px 30px;
+  }
+  .green_dots {
+    width: 5%;
+    position: absolute;
+    right: 0;
+    top: -130px;
+  }
+  #footer .container.py-5 {
+    padding-top: 4rem !important;
+    padding-bottom: 0rem !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1370px) {
+  .counter_card1 .counter_card_content h3 {
+    margin-bottom: 0px !important;
+  }
+  .counter_card_content {
+    bottom: -2px !important;
+    right: 27px !important;
+  }
+  .counter_card2 {
+    width: 37% !important;
+    top: 400px !important;
+  }
+  .counter_card_content2 h2 {
+    font-size: 26px !important;
+  }
+}
+.counter_card1 {
+  position: absolute;
+  width: 32%;
+  box-shadow: 9.26829px 27.8049px 74.1463px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.counter_card2 {
+  position: absolute;
+  width: 32%;
+  box-shadow: 9.26829px 27.8049px 74.1463px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.counter_card_content {
+  bottom: -1px;
+  right: 45px;
+}
+.counter_card_content2 {
+  top: -6px;
+  right: 10px;
+}
+.testimo_leaf_div img {
+  width: 68% !important;
+}
+
+.img_playPause {
+  width: 100%;
+}
+#weWillHelpYou .yellow_dots {
+  width: 5%;
+  position: absolute;
+  right: -20px;
+  top: -18px;
+  z-index: 0;
+}
+
+#becomeInstructor {
+  position: absolute;
+  bottom: -105px;
+}
+
+.score_card {
+  background-color: var(--siteyellow);
+  padding: 0.5rem 2rem;
+  position: absolute;
+  left: 0;
+  z-index: 5;
+  top: 0;
+  border-radius: 15px;
+}
+.score_card h3,
+.score_card h4 {
+  margin-bottom: 0rem !important;
+  line-height: 30px !important;
+}
+/* ---------- Navbar ---------- */
+nav a {
+  font-weight: 600;
+  color: var(--siteblue) !important;
+  font-size: 18px;
+}
+.navbar {
+  z-index: 999;
+  background-color: #fff !important;
+  position: fixed;
+  transition: top 0.7s;
+  width: 100%;
+  -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.05);
+  /* top: -10px !important; */
+}
+
+.navbar-brand img {
+  width: 85%;
+}
+.nav-item {
+  margin: 0px 20px;
+}
+
+/* ------------------------------------- */
+
+/* ..................................*/
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0px;
+  position: absolute;
+  left: 0;
+}
+.dropdown-menu {
+  border: none !important;
+  border-bottom: 3px solid #58d498 !important;
+}
+.dropdown-item {
+  font-weight: 500 !important;
+  color: var(--Secondary) !important;
+  font-size: 18px;
+}
+.dropdown-item:hover {
+  background: #f1fef9 !important;
+}
+.dropdown-item:active {
+  background: var(--Primary) !important;
+  color: #fff !important;
+}
+.dropdown-menu a {
+  color: var(--Secondary) !important;
+}
+.user img {
+  height: 40px;
+  width: 40px;
+}
+/* -------- Hero ---------- */
+.hero-bg {
+  background-color: #f1fef9;
+}
+#headerHero {
+  padding-top: 110px;
+}
+.hero_heading_text {
+  padding-top: 50px;
+}
+.owl-dots {
+  display: flex;
+  justify-content: center;
+}
+.owl-dot {
+  background: #eee !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  margin: 2px;
+}
+.owl-dot.active {
+  background: rgb(165, 165, 165) !important;
+}
+
+/*----------------- cta --------------- */
+.call_to_action {
+  background: #fffcf2;
+  margin-top: 6rem;
+}
+
+.call_to_action .green_dots img {
+  width: 30%;
+}
+.cta_card {
+  box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 10px !important;
+  border: none !important;
+  height: 185px;
+  width: 100%;
+}
+.cta_card h6 {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+.university_logo img {
+  width: 150px;
+  height: 160px;
+}
+/* Course  */
+#courses .courses_card {
+  border: 1px solid #ffdc60;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#courses .courses_card .imgdiv {
+  height: 170px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+}
+#courses h6 {
+  font-size: 18px !important;
+}
+
+/* we will cards  */
+#weWillHelpYou h2 {
+  font-size: 28px !important;
+  line-height: 42px !important;
+}
+#weWillHelpYou h3 {
+  font-size: 26px !important;
+  line-height: 36px !important;
+}
+#weWillHelpYou h4 {
+  font-size: 24px !important;
+  line-height: 36px !important;
+}
+#weWillHelpYou p {
+  line-height: 180% !important;
+}
+#weWillHelpYou .action {
+  background: #ffffff;
+  border-radius: 10px;
+  border: none !important;
+  filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.1));
+}
+#hat {
+  width: 80%;
+}
+.weWill_cards img {
+  height: 80px;
+  width: 80px;
+  top: -18px;
+  z-index: 99;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.weWill_cards .card {
+  border: none !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-height: 235px;
+}
+
+.girl_img {
+  width: 55%;
+  position: absolute;
+  top: 123px;
+  left: 233px;
+}
+.playPause {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 219px;
+  right: 15px;
+}
+
+.playEffect:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.pauseBtnStyle {
+  width: 65%;
+  margin-left: 27px;
+  margin-top: -6px;
+}
+#whysagedean h4 {
+  font-size: 24px !important;
+  line-height: 36px !important;
+}
+#whysagedean p {
+  font-size: 18px !important;
+  line-height: 27px !important;
+}
+#whysagedean .whysagedean_logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.accordion-button {
+  color: var(--siteblue) !important;
+  font-weight: 600 !important;
+}
+.accordion-button:not(.collapsed) {
+  background: #ffffff !important;
+  border: none !important;
+  border-radius: 15px !important;
+  box-shadow: none !important;
+}
+.accordion-item {
+  border: 1px solid #ebebeb !important;
+  border-radius: 15px !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border: none !important;
+  border-radius: 15px !important;
+}
+.accordion-button {
+  padding: 0rem 1.25rem !important;
+}
+.accordion_playbtn {
+  width: 85%;
+}
+
+/* .lastcta .text-div {
+    margin-top: -529px;
+} */
+.lastcta {
+  background: var(--primary);
+  border-radius: 40px;
+  padding: 4%;
+}
+.lastcta img {
+  width: 10%;
+}
+.lastcta #img1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.lastcta #img2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.accordion-button::after {
+  background-image: url("/public/img/nw_img/svg/plus.svg") !important;
+  background-size: 14px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/public/img/nw_img/svg/cross.svg") !important;
+  background-size: 14px;
+}
+/* .submit-btn::before {
+    content: "<svg</svg>";
+} */
+/* 
+.email-input-index {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0px 30px;
+    color: #a4a4a4;
+    border: none;
+    flex-grow: 3;
+    border-radius: 50px;
+}
+.email-input-index:focus {
+    border: none;
+}
+
+.submit-btn-index {
+    padding: 20px 50px;
+    background: #ffdc60;
+    border-radius: 50px;
+    border: none !important;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    flex-grow: 1;
+}
+.send_mail_div {
+    flex-direction: column;
+}
+#sendMail {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: #ffffff;
+    border: 0.5px solid #ffdc60;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 50px;
+    width: 90%;
+    margin-left: 33px;
+} */
+#footer {
+  background: #fffdf7;
+}
+#copyright {
+  background: #fffdf1;
+}
+hr {
+  border: 1px solid #a8a8a8;
+}
+#mail-font-icon {
+  line-height: 28px !important;
+}
+#call-font-icon {
+  line-height: 26px !important;
+}
+#location-font-icon {
+  line-height: 24px !important;
+}
+#becomeInstructor {
+  background: var(--primary);
+  font-size: 28px;
+  border-radius: 50px;
+  padding: 20px 40px;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 6px 0px 0px var(--siteyellow);
+}
+
+.testimo_card {
+  border: none !important;
+  border-radius: 40px !important;
+  box-shadow: 20px 20px 24px rgb(0 0 0 / 4%);
+  padding: 1.063rem 1.75rem;
+}
+/* #courses .leaf {
+    right: -32px !important;
+    top: 174px !important;
+}
+#courses .leaf {
+    width: 10% !important;
+    position: absolute;
+    right: -99px;
+    top: 138px;
+    z-index: 0;
+} */
+#courses .leaf_div {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#courses .leaf_div .leaf {
+  position: absolute;
+  right: 0;
+  width: 8%;
+}
+
+#message {
+  padding: 6px 15px;
+  color: #696969;
+  border: 1px solid #cccccc96;
+  border-radius: 5px;
+  outline: 0;
+  background-color: #f8f9fd;
+}
+#btn-style {
+  background: var(--color-accent-btn-primary);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 53px;
+  padding: 8px;
+}
+/* Send mail form  */
+
+#mailForm {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 0.5px solid #ffdc60;
+  background: #ffffff;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 50px;
+}
+
+.type_email {
+  flex-grow: 3;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.submit_email {
+  border: none;
+  background-color: #ffdc60;
+  color: var(--siteblue);
+  flex-grow: 1;
+  border-radius: 50px;
+}
+.type_email:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 38px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  .hero_heading_text p {
+    font-size: 20px !important;
+  }
+  #heroBoy {
+    position: absolute;
+    left: 91px;
+    width: 70%;
+    bottom: 60px;
+  }
+  .herodiv {
+    width: 70%;
+    margin-top: 8px;
+    float: right;
+  }
+  .counter_card1 {
+    top: 75px;
+    right: -40px;
+  }
+  .counter_card1 p {
+    line-height: 8px;
+  }
+
+  .counter_card2 {
+    position: absolute;
+    top: 364px !important ;
+    left: 34px !important;
+  }
+  .counter_card1 {
+    top: 76px;
+    right: 20px !important;
+  }
+  .counter_card1 p {
+    line-height: 30px;
+  }
+  .girl_img {
+    width: 58%;
+    position: absolute;
+    top: 90px;
+    left: 218px;
+  }
+  .playPause {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 245px;
+    right: 15px;
+  }
+  #becomeInstructor {
+    position: absolute;
+    bottom: -32px;
+  }
+  .hero_heading_text {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .hero-btn {
+    font-size: 16px !important;
+    padding: 20px 45px !important;
+  }
+  #headerHero {
+    padding-top: 40px;
+  }
+  .parant_div_boyimg {
+    display: flex;
+    justify-content: center;
+  }
+  .counter_card2 {
+    position: absolute;
+    top: 446px;
+    left: 0;
+  }
+  .university_logo img {
+    width: 88px !important;
+    height: 88px;
+  }
+  .hat_div {
+    justify-content: center;
+  }
+  .hat_div img {
+    width: 26% !important;
+    margin: 0px 30px;
+  }
+  .card.action {
+    margin-top: 20px;
+    width: 82%;
+  }
+  #weWillHelpYou .card_div_action {
+    justify-content: center !important;
+  }
+  .counter_card_content h3 {
+    margin-bottom: 0rem !important;
+  }
+  .counter_card_content2 h2 {
+    font-size: 30px !important;
+    margin-top: 9px;
+  }
+  .counter_card_content h3 {
+    font-size: 24px !important;
+  }
+  .call_to_action .green_dots img {
+    width: 16%;
+  }
+  .call_to_action .container .col-lg-5 {
+    text-align: center;
+  }
+  .emeet_btn.mt-3 {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+  }
+  .text_upgrade_skills h2 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .upgrade_skills_btndiv {
+    display: flex;
+    justify-content: center;
+  }
+  .emeet_btn,
+  .rqstDemo_btn,
+  .getStarted_btn {
+    padding: 20px 36px !important;
+    font-size: 16px !important;
+  }
+  .main-btn {
+    font-size: 16px;
+    padding: 12px 20px !important;
+  }
+  .cta_card h6 {
+    font-size: 16px !important;
+  }
+  .accordion_playbtn {
+    width: 130%;
+    margin-top: 10px;
+  }
+  #courses .leaf_div .leaf {
+    position: absolute;
+    right: 0;
+    width: 10%;
+    top: 131px;
+  }
+
+  #becomeInstructor {
+    padding: 20px 36px !important;
+    font-size: 20px !important;
+  }
+  .form_div {
+    width: 57% !important;
+  }
+  #mailForm {
+    padding: 5px !important;
+  }
+  .type_email {
+    padding: 20px !important;
+  }
+  .submit_email {
+    width: 127px !important;
+  }
+  .counter_card_content2 {
+    top: -5px !important;
+    right: 23px !important;
+  }
+  .counter_card_content {
+    bottom: -9px !important;
+    right: 45px !important;
+  }
+
+  .counter_card_content h3 {
+    line-height: 100% !important;
+  }
+  .lastcta h2 {
+    font-size: 30px;
+  }
+  .lastcta h5 {
+    font-size: 20px;
+  }
+  .accordion-section.pb-5 {
+    padding-bottom: 16rem !important;
+  }
+  .lastcta {
+    margin-top: -206px;
+  }
+  #copyright {
+    font-size: 14px;
+  }
+  #courses .leaf_div .leaf {
+    right: 0px !important;
+    top: 150px !important;
+  }
+  .testimo_playbtn_mb {
+    z-index: 99 !important;
+    right: -35px !important;
+    bottom: 50px !important;
+  }
+
+  .testimo_card_mb {
+    padding-top: 40px !important;
+    width: 88%;
+    background: #ffffff !important;
+    box-shadow: 20px 20px 24px rgb(0 0 0 / 4%);
+    border-radius: 40px !important;
+    border: none !important;
+    font-size: 14px !important;
+    height: 170px !important;
+    overflow-y: auto;
+  }
+
+  .client_profile_div .customer_details {
+    width: 90%;
+  }
+  .score_card_mb {
+    background-color: var(--siteyellow);
+    z-index: 99;
+    border-radius: 15px;
+    padding: 14px;
+    top: 190px !important;
+  }
+  .score_card_mb h3,
+  .score_card_mb h4 {
+    line-height: 24px !important;
+    margin-bottom: 0rem;
+  }
+  .customer_details img {
+    width: 75%;
+  }
+}
+
+/* Scroll to Top  */
+#scrollToTop_btn {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary);
+  text-indent: -9999px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  z-index: 999;
+}
+#scrollToTop_btn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+#scrollToTop_btn:hover {
+  background-color: var(--siteblue);
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+@media screen and (min-width: 1440px) {
+  .university_logo img {
+    height: 187px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .parant_div_boyimg {
+    width: 90%;
+    float: right;
+  }
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 38px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 15px !important;
+  }
+  .counter_card_content2 h2 {
+    font-size: 27px !important;
+    margin-top: 14px !important;
+  }
+
+  .emeet_btn,
+  .rqstDemo_btn,
+  .getStarted_btn {
+    padding: 16px 20px !important;
+  }
+  .hero-btn {
+    padding: 14px 20px !important;
+  }
+  .main-btn {
+    padding: 12px 20px !important;
+  }
+  .herodiv img {
+    width: 75% !important;
+  }
+  #heroBoy {
+    position: absolute !important;
+    left: 105px !important;
+    width: 50% !important;
+    bottom: 71px !important;
+  }
+  .counter_card1 {
+    top: 95px;
+    right: 24px;
+  }
+  .counter_card2 {
+    top: 335px !important;
+    left: -75px;
+  }
+  .counter_card_content {
+    left: 89px;
+    top: 4px;
+  }
+  .counter_card_content h3 {
+    font-size: 24px !important;
+    line-height: 130% !important;
+  }
+  .counter_card_content p {
+    margin-bottom: 0rem !important;
+    font-size: 18px !important;
+  }
+  .counter_card_content2 {
+    left: 83px;
+  }
+  .call_to_action .text-xs-center h2 {
+    padding-right: 30px;
+  }
+  .green_dots {
+    right: 0;
+    position: absolute;
+    top: -76px;
+  }
+  .lastcta {
+    width: 80%;
+    margin-top: -290px;
+  }
+  .accordion-section.pb-5 {
+    padding-bottom: 270px !important;
+  }
+  .form_div {
+    width: 42%;
+  }
+  #mailForm {
+    padding: 8px;
+    margin-bottom: 2rem !important;
+  }
+  .type_email {
+    padding: 18px;
+  }
+  .submit_email {
+    width: 127px;
+  }
+  h3.text-blue.fw-600.text-center.fs-35px {
+    font-size: 30px !important;
+  }
+
+  #becomeInstructor {
+    font-size: 24px;
+    padding: 18px 38px;
+    bottom: -27px !important;
+  }
+  #footer .container.py-5 {
+    padding-top: 4rem !important;
+    padding-bottom: 0rem !important;
+  }
+  #courses .leaf_div .leaf {
+    right: 32px;
+    top: 125px;
+  }
+  .playPause {
+    width: 75px;
+    height: 74px;
+    position: absolute;
+    top: 194px;
+    right: 146px;
+  }
+  #upgrade_your_skills .upgrade_img_bg img {
+    width: 80%;
+  }
+
+  .girl_img {
+    width: 40%;
+    position: absolute;
+    top: 118px;
+    left: 173px;
+  }
+
+  .accordion_playbtn {
+    width: 70%;
+  }
+}
+.hero_heading_text p {
+  font-size: 20px !important;
+}
+.green_dots {
+  width: 5%;
+}
+.type_email::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a4a4a4;
+  opacity: 1; /* Firefox */
+}
+
+.type_email:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #a4a4a4;
+}
+
+.type_email::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #a4a4a4;
+}
+.testimo_card,
+.customer_details {
+  margin-top: 50px !important;
+  /* background-color: red !important; */
+}
+.testimo_playbtn {
+  position: absolute;
+  bottom: 22px;
+  z-index: 5;
+  right: 468px;
+}
+.testimo_playbtn input {
+  width: 69%;
+}
+.score_card h3 {
+  font-size: 28px !important;
+}
+.testimo_card {
+  height: 165px;
+  overflow-y: scroll;
+}
+.score_card h4 {
+  font-size: 18px;
+}
+.splide__pagination__page.is-active {
+  background: var(--siteyellow) !important;
+  border: 3px solid #fff !important;
+  border-radius: 50px;
+  transform: scale(1) !important;
+  z-index: 1;
+  outline: 2px solid #ccc !important;
+}
+.splide__pagination__page {
+  height: 18px !important;
+  width: 18px !important;
+  background-color: #fff !important;
+  border: 2px solid #c4c4c4 !important;
+  border-radius: 50px;
+}
+.splide__arrows--ttb .splide__arrow--next,
+.splide__arrows--ttb .splide__arrow--prev {
+  display: none !important;
+}
+.splide__pagination li {
+  line-height: 2 !important;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .counter_card_content {
+    bottom: 6px !important;
+    right: 48px !important;
+  }
+  .counter_card_content2 {
+    top: 0px !important;
+    right: 14px !important;
+  }
+  .call_to_action .container.py-5 {
+    padding-top: 0rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .text_upgrade_skills.ps-lg-5 {
+    padding-left: 6rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 38px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 15px !important;
+  }
+}
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+  #becomeInstructor {
+    font-size: 24px;
+    padding: 18px 38px;
+    bottom: -95px !important;
+  }
+}
+@media screen and (min-width: 1601px) {
+  .counter_card_content h3 {
+    font-size: 32px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimo_leaf_div {
+    position: absolute;
+    bottom: 14px !important;
+    left: 0px !important;
+  }
+  .testimo_leaf_div img {
+    width: 48% !important;
+  }
+}
+
+.testimo_card_mb::-webkit-scrollbar,
+.testimo_card::-webkit-scrollbar {
+  width: 3px;
+  padding-right: -20px;
+}
+
+/* Track */
+.testimo_card_mb::-webkit-scrollbar-track,
+.testimo_card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.testimo_card_mb::-webkit-scrollbar-thumb,
+.testimo_card::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+}
+
+/* Handle on hover */
+.testimo_card_mb::-webkit-scrollbar-thumb:hover,
+.testimo_card::-webkit-scrollbar-thumb:hover {
+  background: var(--siteyellow);
+}
+
+@media screen and (min-width: 481px) and (max-width: 991px) {
+  #splide_lg {
+    display: none;
+  }
+  #splide_mb {
+    display: block;
+  }
+  #splide_xs {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  #splide_lg {
+    display: block;
+  }
+  #splide_mb {
+    display: none;
+  }
+  #splide_xs {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  #splide_lg {
+    display: none;
+  }
+  #splide_mb {
+    display: none;
+  }
+  #splide_xs {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1919px) {
+  .testimo_playbtn {
+    bottom: 17px !important;
+    right: 458px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1900px) {
+  .testimo_playbtn {
+    bottom: 17px !important;
+    right: 460px !important;
+  }
+
+  #testimonials .customer_details h4 {
+    font-size: 22px;
+  }
+  #testimonials .customer_details img {
+    width: 85%;
+  }
+  #testimonials .customer_details {
+    margin-top: 88px !important;
+  }
+
+  .testimo_leaf_div img {
+    width: 66% !important;
+  }
+
+  .score_card {
+    text-align: center;
+  }
+  .testimo_card {
+    box-shadow: 20px 2px 24px rgb(0 0 0 / 4%);
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+  #testimonials .customer_details h4 {
+    font-size: 20px;
+  }
+  #testimonials .customer_details img {
+    width: 80%;
+  }
+  #testimonials .customer_details {
+    margin-top: 88px !important;
+  }
+  .testimo_card {
+    margin-top: 68px !important;
+    font-size: 15px;
+    margin-left: 60px;
+  }
+
+  .score_card h3 {
+    font-size: 28px !important;
+  }
+  .testimo_playbtn input {
+    width: 58%;
+  }
+
+  .score_card h4 {
+    font-size: 16px;
+  }
+  .testimo_card {
+    border: none !important;
+    border-radius: 40px !important;
+    box-shadow: 20px 1px 24px rgb(0 0 0 / 4%);
+    padding: 1.063rem 1.75rem;
+  }
+  .score_card {
+    padding: 2px 18px;
+    text-align: center;
+    top: 20px;
+  }
+  .testimo_leaf_div {
+    position: absolute;
+    bottom: 14px !important;
+    left: 26px !important;
+  }
+  .testimo_leaf_div img {
+    width: 48% !important;
+  }
+  .hero_heading_text p {
+    font-size: 18px !important;
+  }
+  .hero_heading_text h1.fs38px {
+    font-size: 40px !important;
+    padding-right: 45px;
+  }
+  .herodiv img {
+    width: 80% !important;
+    margin-left: 66px;
+  }
+  #heroBoy {
+    position: absolute !important;
+    left: 95px !important;
+    width: 52% !important;
+    bottom: 58px !important;
+  }
+  .counter_card2 {
+    top: 337px !important;
+    left: 7px;
+  }
+  .text_upgrade_skills {
+    margin-top: 114px !important;
+  }
+  #becomeInstructor {
+    font-size: 20px;
+  }
+  .form_div {
+    width: 34%;
+  }
+  .type_email {
+    padding: 14px;
+  }
+  .lastcta h2 {
+    line-height: 140% !important;
+  }
+  .lastcta {
+    width: 80%;
+    margin-top: -163px;
+  }
+}
+.testimo_playbtn {
+  bottom: 10px;
+  right: 409px;
+}
+
+/* .sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+} */
+#navbar {
+  position: fixed;
+}
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+  .playPause {
+    width: 80px !important;
+
+    right: 160px !important;
+  }
+  .girl_img {
+    top: 135px;
+    left: 201px;
+  }
+  #heroBoy {
+    left: 95px !important;
+    bottom: 54px !important;
+  }
+  .herodiv{
+      width: 93% !important;
+  }
+}

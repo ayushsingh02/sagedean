@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagedean</title>
+</head>
+<!-- Fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+<!-- <link href="{{asset('public/css/style_nw.css" rel="stylesheet"> -->
+<link href="style.css" rel="stylesheet">
+<!-- Bootstrap only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- font awesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<!-- <link rel="stylesheet" href="{{asset('public/js/touch.css"> -->
+<link rel="stylesheet" href="splide.min.css">
+
+
+<!-- navbar  -->
+<header class="nav_bar_div">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="nw_img/svg/logo.svg"
+                    alt="sagedeanLogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-block d-lg-none">
+                    <li class="nav-item">
+                        <a class="nav-link user" aria-current="page" href="#"><img
+                                src="nw_img/svg/user.svg" alt="user"></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Study Abroad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Finance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            IELTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">General</a></li>
+                            <li><a class="dropdown-item" href="#">Acadmic</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link main-btn" aria-current="page" href="#">Book IELTS Trial</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-lg-block d-none">
+                    <li class="nav-item">
+                        <a class="nav-link user" aria-current="page" href="#"><img
+                                src="nw_img/svg/user.svg" alt="user"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div class="hero-bg pb-5">
+        <div class="container">
+            <div class="row" id="headerHero">
+                <div class="col-lg-5">
+                    <div class="hero_heading_text">
+                        <h3 class="fw-500 text-blue">We're</h3>
+                        <h1 class="fw-bold text-blue fs38px">
+                            Your Study Abroad
+                            Torchbearer
+                        </h1>
+                        <p>Get personalized help in hand-picking
+                            the top ranking universities and brace up for a better tomorrow</p>
+                        <div class="btn-mob-group d-none d-md-block">
+                            <button class="hero-btn fw-bold mt-3 mb-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="position-relative parant_div_boyimg">
+                        <div class="position-relative herodiv">
+                            <img src="nw_img/svg/heromain.svg" alt="">
+                            <img src="nw_img/heromainBOY.png" id="heroBoy" alt="">
+                        </div>
+                        <div class="counter_card1">
+                            <div class="position-relative">
+                                <img src="nw_img/popup1.png" alt="">
+                                <div class="position-absolute counter_card_content">
+                                    <h3 class="fw-bold text-blue fs-lg-2 fs-sm-2"><span id="num1">1200</span>+</h3>
+                                    <p class="fs-4">Courses</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counter_card2">
+                            <div class="position-relative">
+                                <img src="nw_img/popup2.png" alt="">
+                                <div class="position-absolute counter_card_content2 d-flex">
+                                    <h2 class="fw-bold text-blue fs-48px fs-35px mt-lg-2">2k+ </h2>
+                                    <p class="fs-18px mt-4 ps-1">Students</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-mob-group d-block d-sm-block d-md-none d-lg-none d-xl-none "
+                        style="text-align:center">
+                        <button class="hero-btn fw-bold mt-3 mb-3">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container mt-10 mt-sm-5">
+        <div class="">
+            <h2 class="fw-bold text-blue text-center">
+                500+ Partner Universities
+            </h2>
+            <p class="text-center head-support" style="font-size:18px!important;">A large network of
+                direct and partner tie-ups across the globe</p>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item university_logo">
+                <div class="row mt-3 d-flex justify-content-center">
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer1.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer2.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer3.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer4.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item university_logo">
+                <div class="row mt-3 d-flex justify-content-center">
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer6.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer7.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer8.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer9.png" alt="">
+                    </div>
+                    <div class="col-2 d-flex justify-content-center p-3">
+                        <img class="w-100" src="nw_img/university/univer10.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call_to_action mt-10">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="green_dots"><img src="nw_img/svg/green_dots.svg" alt=""></div>
+                    <div class="text-xs-center mt-4">
+                        <h2 class="fw-bold text-blue">We've Got you covered</h2>
+                        <p class="head-support">Just everything you need to study abroad <br> <a href=""
+                                class="text-green text-decoration-none">Learn More...</a></p>
+                        <button class="emeet_btn fw-600 mt-md-4 mt-3">eMeet Your Counsellor</button>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row mt-mb-3rem">
+                        <div class="col-lg-6 col-sm-6 col-12">
+                            <div class="cta_card mt-3 mt-lg-0 card p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="nw_img/svg/ctaimg2.svg" alt="img">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="text-blue fw-bold">Admission Guidance</h6>
+                                        <p class="mt-1">Personalised support from experts to zero in on your destination
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-12">
+                            <div class="cta_card mt-3 mt-lg-0 card p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="nw_img/svg/ctaimg3.svg" alt="img">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="text-blue fw-bold">Scholarships & Loan Aid</h6>
+                                        <p class="mt-1">Financial aid, loan programs, and scholarships to help you
+                                            during your studies</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-12">
+                            <div class="cta_card mt-lg-4 mt-3 card p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="nw_img/svg/ctaimg4.svg" alt="img">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="text-blue fw-bold">Premium IELTS Coaching</h6>
+                                        <p class="mt-1">Our expert instructors know what works for you and what doesn’t
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-12">
+                            <div class="cta_card mt-lg-4 mt-3 card p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="nw_img/svg/ctaimg5.svg" alt="img">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="text-blue fw-bold">Visa Assistance</h6>
+                                        <p class="mt-1">Gain access to the finest study material and many more value
+                                            adds</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-10 mt-sm-5" id="courses">
+        <div class="leaf_div position-relative "><img class="leaf" src="nw_img/svg/leaf.svg"
+                alt=""></div>
+        <div class="container">
+            <div class="pt-lg-0 pt-sm-0 pt-5">
+                <h2 class="text-center fw-bold text-blue">Prepare Well With Our <br> First-Rate Courses</h2>
+                <p class="text-center head-support">Gain access to the finest study material and many more value adds
+                </p>
+            </div>
+            <div class="mt-4">
+                <div class="mt-4">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-12 mt-3">
+                            <div class="card courses_card p-3 pb-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="imgdiv">
+                                        <img src="nw_img/course1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="fw-bold text-uppercase text-blue mt-3">IELTS Academic</h6>
+                                    <p class="head-support">Online/Classroom</p>
+                                    <a href="" class="text-decoration-none text-blue">Know More...</a>
+                                </div>
+                                <div class="text-center">
+                                    <button class="mt-3 main-btn fw-600">Enroll Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 mt-3">
+                            <div class="card courses_card p-3 pb-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="imgdiv">
+                                        <img src="nw_img/course2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="fw-bold text-uppercase text-blue mt-3">IELTS General</h6>
+                                    <p class="head-support">Online/Classroom</p>
+                                    <a href="" class="text-decoration-none text-blue">Know More...</a>
+                                </div>
+                                <div class="text-center">
+                                    <button class="mt-3 main-btn fw-600">Enroll Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 mt-3">
+                            <div class="card courses_card p-3 pb-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="imgdiv">
+                                        <img src="nw_img/course3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="fw-bold text-uppercase text-blue mt-3">TOEFL</h6>
+                                    <p class="head-support">Coming Soon</p>
+                                    <a href="" class="text-decoration-none text-blue">Know More...</a>
+                                </div>
+                                <div class="text-center">
+                                    <button class="mt-3 main-btn fw-600">Enroll Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 mt-3">
+                            <div class="card courses_card p-3 pb-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="imgdiv">
+                                        <img src="nw_img/course4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="fw-bold text-uppercase text-blue mt-3">GRE</h6>
+                                    <p class="head-support">Coming Soon</p>
+                                    <a href="" class="text-decoration-none text-blue">Know More...</a>
+                                </div>
+                                <div class="text-center">
+                                    <button class="mt-3 main-btn fw-600">Enroll Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-10 mt-sm-5 hero-bg py-5" id="weWillHelpYou">
+        <div class="container position-relative  pt-5 pb-5">
+            <img class="yellow_dots d-none d-lg-block" src="nw_img/svg/yellow_dots.svg" alt="">
+            <div class="row">
+                <div class="col-lg-5 col-12 d-flex align-items-center">
+                    <h2 class="fw-bold text-blue text-center px-4">
+                        We’ll Help You Get The IELTS Result That Matters To You
+                    </h2>
+                </div>
+                <div class="col-lg-2 col-12 hat_div d-flex align-items-center">
+                    <img src="nw_img/svg/hat.svg" id="hat" alt="">
+                </div>
+                <div class="col-lg-5 col-12 d-flex align-items-center card_div_action">
+                    <div class="card action p-4">
+                        <h3 class="text-green fw-bold px-3 text-center">Prepare Well With Our Highly Rated And Eminent
+                            Faculties</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="weWill_cards mt-3">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center position-relative mt-5 mt-4">
+                        <div>
+                            <img src="nw_img/svg/2.svg" class="position-absolute" alt="">
+                        </div>
+                        <div class="card text-center mt-4 p-3">
+                            <h4 class="fw-bold text-blue mt-5">Verified & Certified instructors</h4>
+                            <p class="px-3">We leave no stone unturned to cherry-pick the instructors who fit our
+                                quality standards</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center position-relative mt-5 mt-4">
+                        <div>
+                            <img src="nw_img/svg/3.svg" class="position-absolute" alt="">
+                        </div>
+                        <div class="card text-center mt-4 p-3">
+                            <h4 class="fw-bold text-blue mt-5">Convenience & <br> flexibility</h4>
+                            <p class="px-3">Learn at your own pace and amass the knowledge for that outstanding result
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center position-relative mt-5 mt-4">
+                        <div>
+                            <img src="nw_img/svg/4.svg" class="position-absolute" alt="">
+                        </div>
+                        <div class="card text-center mt-4 p-3">
+                            <h4 class="fw-bold text-blue mt-5">Genuine preparation content</h4>
+                            <p class="px-3">The right content is the key to success; gain access to premium study
+                                material</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center position-relative mt-5 mt-4">
+                        <div>
+                            <img src="nw_img/svg/5.svg" class="position-absolute" alt="">
+                        </div>
+                        <div class="card text-center mt-4 p-3">
+                            <h4 class="fw-bold text-blue mt-5">Advanced learning methods</h4>
+                            <p class="px-3">Learn from visuals and videos, anytime anywhere</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center position-relative mt-5 mt-4">
+                        <div>
+                            <img src="nw_img/svg/6.svg" class="position-absolute" alt="">
+                        </div>
+                        <div class="card text-center mt-4 p-3">
+                            <h4 class="fw-bold text-blue mt-5">Group or personalised learning</h4>
+                            <p class="px-3">Enrol in a course as per your budget, availability, and preference</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center position-relative mt-5 mt-4">
+                        <div>
+                            <img src="nw_img/svg/7.svg" class="position-absolute" alt="">
+                        </div>
+                        <div class="card text-center mt-4 p-3">
+                            <h4 class="fw-bold text-blue mt-5">Precise IELTS band predictor</h4>
+                            <p class="px-3">Know your IELTS outcome before taking the Official IELTS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="upgrade_your_skills" class="mt-10 mt-sm-5 pt-5 pt-lg-0 pt-sm-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-sm-12 position-relative">
+                    <div class="upgrade_img_bg">
+                        <img src="nw_img/svg/upgrade_skills.svg" alt="">
+                    </div>
+                    <div class="girl_img">
+                        <img src="nw_img/upgrade_skillsGIRL.png" alt="">
+                    </div>
+                    <div class="playPause">
+                        <input type="image" class="img_playPause playEffect"
+                            src="nw_img/svg/playandpause.svg" onclick="play()">
+                    </div>
+                    <audio id="audio"
+                        src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba-online-audio-converter.com_-1.wav"></audio>
+
+                </div>
+                <div class="col-lg-5 col-sm-12 ps-lg-5  ps-sm-3 text_upgrade_skills">
+                    <div class="mt-10">
+                        <h2 class="text-blue fw-bold">Upgrade Your <br class="d-lg-block d-none"> IELTS Skills
+                            <br class="d-lg-block d-none"> Reform Your Life
+                        </h2>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 upgrade_skills_btndiv mt-lg-5 mt-3 pt-3">
+                            <div class="">
+                                <button class="emeet_btn explore_courses_btn">Explore Courses</button>
+                            </div>
+                            <div class="">
+                                <button class="rqstDemo_btn">Request Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="whysagedean" class="mt-10 mt-5 mt-lg-0 mt-sm-0" style="background: #FFFCF2;">
+        <div class="container mt-5">
+            <div class="p-md-5 p-3 pt-5 pb-5">
+                <div class="text-center">
+                    <h2 class="fw-bold text-blue">Why Sagedean?</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-sm-6 col-sm-6 pe-lg-5 mt-3">
+                        <div class="whysagedean_logo">
+                            <img src="nw_img/svg/ctaB1.svg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h4 class="fw-bold text-blue">500+ Top Ranking Universities
+                            </h4>
+                            <p>A colossal network of direct tie-ups and partners. <i class="fw-600 text-blue">Within 24
+                                    hours application processing assurances</i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 pe-lg-5 mt-3">
+                        <div class="whysagedean_logo">
+                            <img src="nw_img/svg/ctaB2.svg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h4 class="fw-bold text-blue">1200+ <br>
+                                Courses
+                            </h4>
+                            <p>Pick your choice from the myriad of courses under your counselor’s experienced guidance
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 pe-lg-5 mt-3">
+                        <div class="whysagedean_logo">
+                            <img src="nw_img/svg/ctaB3.svg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h4 class="fw-bold text-blue">2000+ Enrolled <br> Students</h4>
+                            <p>Participative activities, rigorous practice, enhanced learning, and more!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 pe-lg-5 mt-3">
+                        <div class="whysagedean_logo">
+                            <img src="nw_img/svg/ctaB4.svg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h4 class="fw-bold text-blue">50+ Meaningful <br> Counsellors
+                            </h4>
+                            <p>We support admission guidance and learning by being collaborative, educating, engaging,
+                                and encouraging</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 pe-lg-5 mt-3">
+                        <div class="whysagedean_logo">
+                            <img src="nw_img/svg/ctaB5.svg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h4 class="fw-bold text-blue">100% Efficient Training <br> Methodology</h4>
+                            <p>We want you to think outside the box; our study content, objective, and approach are to
+                                enable you to do so</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 pe-lg-5 mt-3">
+                        <div class="whysagedean_logo">
+                            <img src="nw_img/svg/ctaB6.svg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <h4 class="fw-bold text-blue">Intensifies Your IELTS <br> Understanding</h4>
+                            <p>Our IELTS learning strategies increase your knowledge on the subject and help you
+                                progress towards your desired band</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="mt-10 mt-sm-5">
+
+        <div class="container position-relative mt-lg-0 mt-sm-3 mt-5 mb-5">
+            <img class="green_dots d-none d-lg-block" src="nw_img/svg/green_dots1.svg" alt="">
+            <div class="text-center">
+                <h2 class="fw-bold text-blue">Testimonials</h2>
+                <p class="head-support">Over 2k+ Students have successfully completed their course</p>
+            </div>
+            <section class="splide mt-5" id="splide_lg" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="row">
+                                <div class="col-lg-7 col-12 d-flex justify-content-end positon-relative">
+                                    <div class="score_card">
+                                        <h3 class="fw-600 fs-35px text-blue">7.5</h3>
+                                        <h4 class="fs-18px">GT IELTS</h4>
+                                    </div>
+                                    <div class="testimo_leaf_div">
+                                        <img src="nw_img/svg/leaf.svg" alt="">
+                                    </div>
+                                    <div class="testimo_playbtn">
+                                        <input type="image" class="playEffect"
+                                            src="nw_img/svg/playandpause.svg" onclick="play()">
+                                    </div>
+                                    <div class="card testimo_card">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae.
+                                        Iusto explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis
+                                        laboriosam, placeat nisi odit, quod dignissimos optio odio?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat
+                                        reprehenderit voluptas suscipit expedita magnam, natus possimus laboriosam?
+                                        Repudiandae placeat iure similique magni distinctio voluptatibus cumque, ut quia
+                                        est adipisci?
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="row customer_details p-3">
+                                        <div class="col-4">
+                                            <img src="nw_img/ruchi.png" alt="">
+                                        </div>
+                                        <div class="col-8">
+                                            <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                            <p>Digital Media & Director</p>
+                                            <img src="nw_img/svg/stars.svg" alt=""
+                                                class="stars w-50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="row">
+                                <div class="col-lg-7 col-12 d-flex justify-content-end positon-relative">
+                                    <div class="score_card">
+                                        <h3 class="fw-600 fs-35px text-blue">7.5</h3>
+                                        <h4 class="fs-18px">GRE</h4>
+                                    </div>
+                                    <div class="testimo_leaf_div">
+                                        <img src="nw_img/svg/leaf.svg" alt="">
+                                    </div>
+                                    <div class="testimo_playbtn">
+                                        <input type="image" class="playEffect"
+                                            src="nw_img/svg/playandpause.svg" onclick="play()">
+                                    </div>
+                                    <div class="card testimo_card">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae.
+                                        Iusto explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis
+                                        laboriosam, placeat nisi odit, quod dignissimos optio odio?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat
+                                        reprehenderit voluptas suscipit expedita magnam, natus possimus laboriosam?
+                                        Repudiandae placeat iure similique magni distinctio voluptatibus cumque, ut quia
+                                        est adipisci?
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="row customer_details p-3">
+                                        <div class="col-4">
+                                            <img src="nw_img/ruchi.png" alt="">
+                                        </div>
+                                        <div class="col-8">
+                                            <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                            <p>Digital Media & Director</p>
+                                            <img src="nw_img/svg/stars.svg" alt=""
+                                                class="stars w-50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="row">
+                                <div class="col-lg-7 col-12 d-flex justify-content-end positon-relative">
+                                    <div class="score_card">
+                                        <h3 class="fw-600 fs-35px text-blue">7.5</h3>
+                                        <h4 class="fs-18px">TOEFL</h4>
+                                    </div>
+                                    <div class="testimo_leaf_div">
+                                        <img src="nw_img/svg/leaf.svg" alt="">
+                                    </div>
+                                    <div class="testimo_playbtn">
+                                        <input type="image" class="playEffect"
+                                            src="nw_img/svg/playandpause.svg" onclick="play()">
+                                    </div>
+                                    <div class="card testimo_card">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae.
+                                        Iusto explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis
+                                        laboriosam, placeat nisi odit, quod dignissimos optio odio?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat
+                                        reprehenderit voluptas suscipit expedita magnam, natus possimus laboriosam?
+                                        Repudiandae placeat iure similique magni distinctio voluptatibus cumque, ut quia
+                                        est adipisci?
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="row customer_details p-3">
+                                        <div class="col-4">
+                                            <img src="nw_img/ruchi.png" alt="">
+                                        </div>
+                                        <div class="col-8">
+                                            <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                            <p>Digital Media & Director</p>
+                                            <img src="nw_img/svg/stars.svg" alt=""
+                                                class="stars w-50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="splide position-relative" id="splide_mb" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+
+                            <div class="client_profile_div d-flex justify-content-center">
+                                <div class="row customer_details p-3">
+                                    <div class="col-4">
+                                        <img src="nw_img/ruchi.png" class="w-sm-75" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                        <p>Digital Media & Director</p>
+                                        <img src="nw_img/svg/stars.svg" alt=""
+                                            class="stars w-50">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="score_card_mb position-absolute p-2">
+                                <h3 class="fw-600 fs-4 text-blue">7.5</h3>
+                                <h4 class="fs-6">GT IELTS</h4>
+                            </div>
+
+                            <div class="testimo_playbtn_mb position-absolute">
+                                <input type="image" class="playEffect w-50"
+                                    src="nw_img/svg/playandpause.svg" onclick="play()">
+                            </div>
+                            <div class="d-flex justify-content-center testimo_card_div mt-3">
+                                <div class="card testimo_card_mb p-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae. Iusto
+                                    explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis laboriosam,
+                                    placeat nisi odit, quod dignissimos optio odio?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat reprehenderit
+                                    voluptas suscipit expedita magnam, natus possimus laboriosam? Repudiandae placeat
+                                    iure similique magni distinctio voluptatibus cumque, ut quia est adipisci?
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="splide__slide">
+
+                            <div class="client_profile_div d-flex justify-content-center">
+                                <div class="row customer_details p-3">
+                                    <div class="col-4">
+                                        <img src="nw_img/ruchi.png" class="w-sm-75" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                        <p>Digital Media & Director</p>
+                                        <img src="nw_img/svg/stars.svg" alt=""
+                                            class="stars w-50">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="score_card_mb position-absolute p-2">
+                                <h3 class="fw-600 fs-4 text-blue">7.5</h3>
+                                <h4 class="fs-6">GT IELTS</h4>
+                            </div>
+
+                            <div class="testimo_playbtn_mb position-absolute">
+                                <input type="image" class="playEffect w-50"
+                                    src="nw_img/svg/playandpause.svg" onclick="play()">
+                            </div>
+                            <div class="d-flex justify-content-center testimo_card_div mt-3">
+                                <div class="card testimo_card_mb p-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae. Iusto
+                                    explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis laboriosam,
+                                    placeat nisi odit, quod dignissimos optio odio?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat reprehenderit
+                                    voluptas suscipit expedita magnam, natus possimus laboriosam? Repudiandae placeat
+                                    iure similique magni distinctio voluptatibus cumque, ut quia est adipisci?
+                                </div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <section class="splide position-relative" id="splide_xs" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+
+                            <div class="client_profile_div d-flex justify-content-center">
+                                <div class="row customer_details p-3">
+                                    <div class="col-4">
+                                        <img src="nw_img/ruchi.png" class="w-sm-75" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                        <p>Digital Media & Director</p>
+                                        <img src="nw_img/svg/stars.svg" alt=""
+                                            class="stars w-50">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="score_card_mb position-absolute p-2">
+                                <h3 class="fw-600 fs-4 text-blue">7.5</h3>
+                                <h4 class="fs-6">GT IELTS</h4>
+                            </div>
+
+                            <div class="testimo_playbtn_mb position-absolute">
+                                <input type="image" class="playEffect w-50"
+                                    src="nw_img/svg/playandpause.svg" onclick="play()">
+                            </div>
+                            <div class="d-flex justify-content-center testimo_card_div mt-3">
+                                <div class="card testimo_card_xs p-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae. Iusto
+                                    explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis laboriosam,
+                                    placeat nisi odit, quod dignissimos optio odio?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat reprehenderit
+                                    voluptas suscipit expedita magnam, natus possimus laboriosam? Repudiandae placeat
+                                    iure similique magni distinctio voluptatibus cumque, ut quia est adipisci?
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="splide__slide">
+
+                            <div class="client_profile_div d-flex justify-content-center">
+                                <div class="row customer_details p-3">
+                                    <div class="col-4">
+                                        <img src="nw_img/ruchi.png" class="w-sm-75" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h4 class="fw-bold text-blue mt-4">Ruchira Das Gupta</h4>
+                                        <p>Digital Media & Director</p>
+                                        <img src="nw_img/svg/stars.svg" alt=""
+                                            class="stars w-50">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="score_card_mb position-absolute p-2">
+                                <h3 class="fw-600 fs-4 text-blue">7.5</h3>
+                                <h4 class="fs-6">GT IELTS</h4>
+                            </div>
+
+                            <div class="testimo_playbtn_mb position-absolute">
+                                <input type="image" class="playEffect w-50"
+                                    src="nw_img/svg/playandpause.svg" onclick="play()">
+                            </div>
+                            <div class="d-flex justify-content-center testimo_card_div mt-3">
+                                <div class="card testimo_card_xs p-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae. Iusto
+                                    explicabo placeat odio. Quasi ad, nobis ab quaerat culpa quae officiis laboriosam,
+                                    placeat nisi odit, quod dignissimos optio odio?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat reprehenderit
+                                    voluptas suscipit expedita magnam, natus possimus laboriosam? Repudiandae placeat
+                                    iure similique magni distinctio voluptatibus cumque, ut quia est adipisci?
+                                </div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section class="accordion-section mt-10 mt-sm-5 pt-5 pb-5" style="background-color: #F2FEF9;">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fw-bold text-blue">FREQUENTLY ASKED QUESTIONS</h2>
+            </div>
+            <div class="accordion row mt-4" id="accordionExample1">
+                <div class="col-lg-11 col-sm-11 col-10">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="first">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefirst" aria-expanded="false" aria-controls="collapsefirst">
+                                Multiple Supported for Teaching
+                            </button>
+                        </h2>
+                        <div id="collapsefirst" class="accordion-collapse collapse" aria-labelledby="first"
+                            data-bs-parent="#accordionExample1">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium,
+                                accusamus assumenda earum fugit debitis quibusdam nemo, autem corporis ipsa quasi vel
+                                alias ab dolorum eveniet? Nisi assumenda quidem repudiandae!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-1 col-2 mob-play-accordion accordion_play_1">
+                    <input type="image" src="nw_img/svg/playandpause.svg" onclick="play()"
+                        class="float-end accordion_playbtn playEffect" alt="">
+                </div>
+            </div>
+            <div class="accordion row mt-4" id="accordionExample2">
+                <div class="col-lg-11 col-sm-11 col-10">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="second">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSecond" aria-expanded="false" aria-controls="collapseSecond">
+                                Multiple Supported for Teaching
+                            </button>
+                        </h2>
+                        <div id="collapseSecond" class="accordion-collapse collapse" aria-labelledby="second"
+                            data-bs-parent="#accordionExample2">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium,
+                                accusamus assumenda earum fugit debitis quibusdam nemo, autem corporis ipsa quasi vel
+                                alias ab dolorum eveniet? Nisi assumenda quidem repudiandae!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-1 col-2 mob-play-accordion accordion_play_2">
+                    <input type="image" src="nw_img/svg/playandpause.svg" onclick="play()"
+                        class="float-end accordion_playbtn playEffect" alt="">
+                </div>
+            </div>
+            <div class="accordion row mt-4" id="accordionExample3">
+                <div class="col-lg-11 col-sm-11 col-10">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="third">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsethird" aria-expanded="false" aria-controls="collapsethird">
+                                Multiple Supported for Teaching
+                            </button>
+                        </h2>
+                        <div id="collapsethird" class="accordion-collapse collapse" aria-labelledby="third"
+                            data-bs-parent="#accordionExample3">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium,
+                                accusamus assumenda earum fugit debitis quibusdam nemo, autem corporis ipsa quasi vel
+                                alias ab dolorum eveniet? Nisi assumenda quidem repudiandae!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-1 col-2 mob-play-accordion accordion_play_3">
+                    <input type="image" src="nw_img/svg/playandpause.svg" onclick="play()"
+                        class="float-end accordion_playbtn playEffect" alt="">
+                </div>
+            </div>
+            <div class="accordion row mt-4" id="accordionExample4">
+                <div class="col-lg-11 col-sm-11 col-10">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="forth">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseforth" aria-expanded="false" aria-controls="collapseforth">
+                                Multiple Supported for Teaching
+                            </button>
+                        </h2>
+                        <div id="collapseforth" class="accordion-collapse collapse" aria-labelledby="forth"
+                            data-bs-parent="#accordionExample4">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium,
+                                accusamus assumenda earum fugit debitis quibusdam nemo, autem corporis ipsa quasi vel
+                                alias ab dolorum eveniet? Nisi assumenda quidem repudiandae!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-1 col-2 mob-play-accordion accordion_play_4">
+                    <input type="image" src="nw_img/svg/playandpause.svg" onclick="play()"
+                        class="float-end accordion_playbtn playEffect" alt="">
+                </div>
+            </div>
+            <div class="accordion row mt-4" id="accordionExample5">
+                <div class="col-lg-11 col-sm-11 col-10">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="fifth">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefifth" aria-expanded="false" aria-controls="collapsefifth">
+                                Multiple Supported for Teaching
+                            </button>
+                        </h2>
+                        <div id="collapsefifth" class="accordion-collapse collapse" aria-labelledby="fifth"
+                            data-bs-parent="#accordionExample5">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium,
+                                accusamus assumenda earum fugit debitis quibusdam nemo, autem corporis ipsa quasi vel
+                                alias ab dolorum eveniet? Nisi assumenda quidem repudiandae!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-1 col-2 mob-play-accordion accordion_play_5">
+                    <input type="image" src="nw_img/svg/playandpause.svg" onclick="play()"
+                        class="float-end accordion_playbtn playEffect" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="mt-10">
+        <div class="container d-flex justify-content-center">
+            <div class="lastcta position-relative">
+                <img id="img1" src="nw_img/svg/lastctaleaf1.svg" alt="">
+                <img id="img2" src="nw_img/svg/lastctaleaf2.svg" alt="">
+                <div class="text-center text-div">
+                    <h2 class="text-white fw-600">Ready To <br>
+                        Leap Towards Success?</h2>
+                    <h5 class="text-white fw-normal">We bring in the required resources, you carve out a better you</h5>
+                    <button class="getStarted_btn mt-4">Get Started</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="mt-5 mb-5">
+        <div class="container d-flex align-items-center flex-column">
+            <div>
+                <h3 class="text-blue fw-600 text-center fs-35px">Subscribe to receive occasional <br> updates</h3>
+            </div>
+            <div class="form_div mt-3">
+                <form action="" id="mailForm" class="mb-3 mb-lg-0 mb-sm-3">
+                    <input type="email" class="type_email" placeholder="Enter your Email">
+                    <button type="submit" class="submit_email text-blue fw-bold"><i
+                            class="fa-regular fa-paper-plane text-blue"></i> &nbsp; Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="d-flex justify-content-center position-relative">
+        <button class="fw-bold" id="becomeInstructor">Become an Instructor</button>
+    </div>
+</body>
+<style>
+
+</style>
+
+
+<!-- footer_nw -->
+<a href="" id="scrollToTop_btn"><span></span></a>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- counter  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="countMe.min.js"></script>
+<!-- <script src="{{asset('public/js/touch.js"></script> -->
+<script src="splide.min.js"></script>
+
+<script>
+    // scroll to top btn
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $("#scrollToTop_btn").fadeIn();
+            } else {
+                $("#scrollToTop_btn").fadeOut();
+            }
+        });
+        $("#scrollToTop_btn").click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 100);
+            return false;
+        });
+    });
+</script>
+<!-- footer_nwDesign  -->
+<footer class="mt-4rem" id="footer">
+    <div class="container py-5 main_footer_content">
+        <div class="row">
+            <div class="col-lg-3 col-sm-5 col-12 d-none d-sm-block">
+                <img src="nw_img/svg/logo.svg" class="footer_logo" alt="logo">
+                <p class="mt-4 logo_para">An enabler to aspirants seeking quality education in other geographies across
+                    the globe.</p>
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6">
+                <h5 class="fw-600 text-blue fs-18px pt-3">Courses</h5>
+                <div class="mt-4">
+                    <p><a href="" class="text-decoration-none text-para">IELTS Basic</a></p>
+                    <p><a href="" class="text-decoration-none text-para">IELTS Advanced</a></p>
+                    <p><a href="" class="text-decoration-none text-para">IELTS Fast Tracks</a></p>
+                    <p><a href="" class="text-decoration-none text-para">IELTS Writing Focus</a></p>
+                    <p><a href="" class="text-decoration-none text-para">IELTS Speaking Focus</a></p>
+                    <p><a href="" class="text-decoration-none text-para">IELTS Reading Focus</a></p>
+                    <p><a href="" class="text-decoration-none text-para">IELTS Listening Focus</a></p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+                <h5 class="fw-600 text-blue fs-18px pt-3">Useful Links</h5>
+                <div class="mt-4">
+                    <p><a href="" class="text-decoration-none text-para">About</a></p>
+                    <p><a href="" class="text-decoration-none text-para">Career</a></p>
+                    <p><a href="" class="text-decoration-none text-para">Current Level Checker</a></p>
+                    <p><a href="" class="text-decoration-none text-para">Blogs</a></p>
+                </div>
+                <h5 class="fw-600 text-blue fs-18px pt-3 d-none d-lg-block d-md-block">Study Aborad</h5>
+                <div class="mt-4">
+                    <p><a href="" class="text-decoration-none text-para">FAQs</a></p>
+                    <p><a href="" class="text-decoration-none text-para">Know More</a></p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6">
+                <h5 class="fw-600 text-blue fs-18px pt-3">Login</h5>
+                <div class="mt-4">
+                    <p><a href="" class="text-decoration-none text-para">Student</a></p>
+                    <p><a href="" class="text-decoration-none text-para">Instructor</a></p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6  d-block d-lg-none">
+                <h5 class="fw-600 text-blue fs-18px pt-3">Study Aborad</h5>
+                <div class="mt-4">
+                    <p><a href="" class="text-decoration-none text-para">FAQs</a></p>
+                    <p><a href="" class="text-decoration-none text-para">Know More</a></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <h5 class="fw-600 text-blue fs-18px pt-3">Contact</h5>
+                <div class="mt-4">
+                    <div class="d-flex gap-2">
+                        <p id="mail-font-icon"><i class="text-green fa-solid fa-envelope"></i></p>
+                        <p class=""><a href="" class="text-decoration-none text-para">support@sagedean.com</a></p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <p id="call-font-icon"><i class="text-green fa-solid fa-phone"></i></p>
+                        <p class=""><a href="" class="text-decoration-none text-para">+91 88607 56247</a></p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <p id="location-font-icon"><i class="text-green fa-solid fa-location-dot"></i></p>
+                        <p class=""><a href="" class="text-decoration-none text-para">3rd Floor, Bhagwan Sahai Palace
+                                Naya Bans, Sector 15, Noida - 201301</a></p>
+                    </div>
+                    <div class="d-flex gap-2 mt-4 social_icon">
+                        <a href=""><img src="nw_img/svg/facebook.svg" alt=""></a>
+                        <a href=""><img src="nw_img/svg/twitter.svg" alt=""></a>
+                        <a href=""><img src="nw_img/svg/linkedin.svg" alt=""></a>
+                        <a href=""><img src="nw_img/svg/insta.svg" alt=""></a>
+                        <a href=""><img src="nw_img/svg/youtube.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 col-lg-3 col-sm-4 col-12 d-sm-none d-block d-flex flex-column last_footer_logo">
+                <div>
+                    <img src="nw_img/svg/logo.svg"
+                        class="footer_logo w-50 justify-content-center" alt="logo">
+                </div>
+                <div>
+                    <p class="mt-4">An enabler to aspirants seeking quality education in other geographies across the
+                        globe.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="copyright">
+        <hr>
+        <div class="container d-lg-block d-sm-block d-md-block d-none">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-start gap-4">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Terms</a> </p>
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Privacy</a> </p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">©2022 Bright Orbit
+                            Enterprises. All Rights Reserved.</a> </p>
+                </div>
+                <div class="d-flex justify-content-end gap-4">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Disclaimer</a> </p>
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Refund Policy</a> </p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container d-lg-none d-md-none d-sm-none d-block">
+            <div class="row">
+                <div class="col-lg-2">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Terms</a> </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Privacy</a> </p>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">©2022 Bright Orbit
+                            Enterprises. All Rights Reserved.</a> </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Disclaimer</a> </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-center"><a href="" class="text-decoration-none text-para">Refund Policy</a> </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+<script>
+    window.onload = () => {
+        // $(selector).countMe(delay,speed)
+        $("#num1").countMe(200, 0);
+    }
+</script>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0px";
+        } else {
+            document.getElementById("navbar").style.top = "0";
+        }
+    }
+</script>
+
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        },
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+    })
+</script>
+
+<script>
+    $(".playPause").click(function () {
+        if ($(".playPause input").attr('value') == 0) {
+            $(".playPause input").attr('value', 1)
+            $('.playPause input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".playPause input").attr('value', 0)
+            $('.playPause input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    $(".testimo_playbtn").click(function () {
+        if ($(".testimo_playbtn input").attr('value') == 0) {
+            $(".testimo_playbtn input").attr('value', 1)
+            $('.testimo_playbtn input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".testimo_playbtn input").attr('value', 0)
+            $('.testimo_playbtn input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    $(".accordion_play_1").click(function () {
+        if ($(".accordion_play_1 input").attr('value') == 0) {
+            $(".accordion_play_1 input").attr('value', 1)
+            $('.accordion_play_1 input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".accordion_play_1 input").attr('value', 0)
+            $('.accordion_play_1 input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    $(".accordion_play_2").click(function () {
+        if ($(".accordion_play_2 input").attr('value') == 0) {
+            $(".accordion_play_2 input").attr('value', 1)
+            $('.accordion_play_2 input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".accordion_play_2 input").attr('value', 0)
+            $('.accordion_play_2 input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    $(".accordion_play_3").click(function () {
+        if ($(".accordion_play_3 input").attr('value') == 0) {
+            $(".accordion_play_3 input").attr('value', 1)
+            $('.accordion_play_3 input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".accordion_play_3 input").attr('value', 0)
+            $('.accordion_play_3 input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    $(".accordion_play_4").click(function () {
+        if ($(".accordion_play_4 input").attr('value') == 0) {
+            $(".accordion_play_4 input").attr('value', 1)
+            $('.accordion_play_4 input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".accordion_play_4 input").attr('value', 0)
+            $('.accordion_play_4 input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    $(".accordion_play_5").click(function () {
+        if ($(".accordion_play_5 input").attr('value') == 0) {
+            $(".accordion_play_5 input").attr('value', 1)
+            $('.accordion_play_5 input').attr('src', "nw_img/svg/playandpause.svg")
+            var audio = document.getElementById("audio");
+            audio.pause();
+        } else {
+            $(".accordion_play_5 input").attr('value', 0)
+            $('.accordion_play_5 input').attr('src', "nw_img/svg/pause.svg")
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    })
+</script>
+<script>
+    function play() {
+
+    }
+</script>
+
+<script>
+    var splide = new Splide('.splide', {
+        direction: 'ttb',
+        height: '18rem',
+        // wheel: true,
+        type: 'loop',
+        // autoplay: true,
+    });
+
+    splide.mount();
+</script>
+<script>
+    var splide2 = new Splide('#splide_mb', {
+        direction: 'ttb',
+        height: '30rem',
+        // wheel: true,
+        type: 'loop',
+        // autoplay: true,
+    });
+
+    splide2.mount();
+</script>
+<script>
+    var splide2 = new Splide('#splide_xs', {
+        direction: 'ttb',
+        height: '40rem',
+        // wheel: true,
+        type: 'loop',
+        // autoplay: true,
+    });
+
+    splide2.mount();
+</script>
+
+</html>
